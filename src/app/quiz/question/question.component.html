@@ -1,0 +1,9 @@
+<div class="question">
+    <div class="question-header"><h4>Question {{question?.question_id}}</h4></div>
+    <div class="question-body">
+        {{question?.question}}
+    </div>
+</div>
+<div class="answers">
+    <div *ngFor="let answer of question?.answers" id="answer-{{answer.id}}" class="answer" (click)="emitAnswer(answer.id, question.question_id)" [ngClass]="(selectedAnswer?.answerId===answer.id && selectedAnswer?.questionId===question?.question_id) ? 'active':''">{{answer.value}}</div>
+</div>

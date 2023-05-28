@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="header">
+        <h1>Quiz Application UI</h1>
+    </div>
+    <div *ngIf="page === 'questions'" class="quiz-selection">
+        <form [formGroup]="form">
+            <label for="quiz">Select Quiz:</label>
+            <select name="quiz" id="quiz" formControlName="name" >
+              <option *ngFor="let quiz of quizCategories" value="{{quiz.name}}" [disabled]="checkIfDisabled(quiz.name)">{{quiz.name}}</option>
+            </select>
+        </form>
+    </div>
+    <div *ngIf="page === 'questions'" class="question-container">
+        <div class="question-title">
+            <h3>{{form.get('name').value}}</h3>
+        </div>
+        <div class="question-body">
+            <div class="question">
+                <app-question [question]="question" (questionId$)="addAnswer($event)"></app-question>
+            </div>
+            <div class="pills-navigation">
+                <button *ngFor="let question of questions" class="pill" (click)="changeQuestion(question.question_id)" [ngClass]="question.question_id === questionId ? 'active' : ''">{{question.question_id}}</button>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="btn-navigation" (click)="navigateQuestions('prev')" [disabled]="questionId===1">prev</button>
+            <button class="btn-navigation" (click)="navigateQuestions('next')" [disabled]="questionId===5">next</button>
+        </div>
+        <div class="action-bar">
+            <button class="btn-submit" (click)="submitPage(form.get('name').value)">Submit page</button>
+            <button class="btn-submit" (click)="submitAll()">Submit all and finish</button>
+        </div>
+    </div>
+    <div *ngIf="page==='results'" class="results">
+        <app-results [resultsKey]="resultsKey"></app-results>
+    </div>
+</div>
+

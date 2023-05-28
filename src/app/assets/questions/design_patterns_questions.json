@@ -1,0 +1,119 @@
+{   
+    "name": "Design patterns",
+    "questions": [
+    {
+    "question_id": 1,
+    "question": "Which pattern we can use to ensure a class has only one instance?",
+    "answers": [ 
+        {
+            "id": 1,
+            "value": "Multiton"
+        },
+        {
+            "id": 2,
+            "value": "Facade"
+        },
+        {
+            "id": 3,
+            "value": "Singleton"
+        },
+        {
+            "id": 4,
+            "value": "State"
+        }
+    ],
+    "correct_answer": 3 
+    },
+    {
+        "question_id": 2,
+        "question": "Which pattern provide a unified interface to a set of interfaces in a subsystem?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Bridge"
+            },
+            {
+                "id": 2,
+                "value": "Facade"
+            },
+            {
+                "id": 3,
+                "value": "Composite"
+            },
+            {
+                "id": 4,
+                "value": "State"
+            }
+        ],
+        "correct_answer": 2 
+    },
+    {
+        "question_id": 3,
+        "question": "Which one is not Design pattern category?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Creational patterns"
+            },
+            {
+                "id": 2,
+                "value": "Structural patterns"
+            },
+            {
+                "id": 3,
+                "value": "Behavioral patterns"
+            },
+            {
+                "id": 4,
+                "value": "Functional patterns"
+            }
+        ],
+        "correct_answer": 4 
+    },
+    {
+        "question_id": 4,
+        "question": "Which pattern give us posibility to convert the interface of a class into another interface clients expect?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Adapter"
+            },
+            {
+                "id": 2,
+                "value": "Decorator"
+            },
+            {
+                "id": 3,
+                "value": "Multiton"
+            },
+            {
+                "id": 4,
+                "value": "State"
+            }
+        ],
+        "correct_answer": 1 
+    },
+    {
+        "question_id": 5,
+        "question": "Which pattern use sharing to support large numbers of similar objects efficiently?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Adapter"
+            },
+            {
+                "id": 2,
+                "value": "Flyweight"
+            },
+            {
+                "id": 3,
+                "value": "Multiton"
+            },
+            {
+                "id": 4,
+                "value": "Proxy"
+            }
+        ],
+        "correct_answer": 2
+    }
+]}

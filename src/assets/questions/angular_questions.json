@@ -1,0 +1,124 @@
+{   
+    "name": "Angular",
+    "questions": [
+    {
+    "category": "Angular",
+    "question_id": 1,
+    "question": "What are Components in Angular?",
+    "answers": [ 
+        {
+            "id": 1,
+            "value": "Components are the basic building blocks of the user interface in an Angular application."
+        },
+        {
+            "id": 2,
+            "value": "Components are part of code that enables communication with DB."
+        },
+        {
+            "id": 3,
+            "value": "Components are parts of code used for transforming data."
+        },
+        {
+            "id": 4,
+            "value": "Components are the basic instrument for authorization and authentification in Angular app"
+        }
+    ],
+    "correct_answer": 1 
+    },
+    {
+        "category": "Angular",
+        "question_id": 2,
+        "question": "How we call functions that are used for transforming data?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Promises"
+            },
+            {
+                "id": 2,
+                "value": "Time-out functions"
+            },
+            {
+                "id": 3,
+                "value": "Pipes"
+            },
+            {
+                "id": 4,
+                "value": "Anonymous functions"
+            }
+        ],
+        "correct_answer": 3 
+    },
+    {
+        "category": "Angular",
+        "question_id": 3,
+        "question": "When we say Emulated, Native and none, about what we are talking?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "zone.js"
+            },
+            {
+                "id": 2,
+                "value": "Observables"
+            },
+            {
+                "id": 3,
+                "value": "RxJS methods"
+            },
+            {
+                "id": 4,
+                "value": "View encapsulation"
+            }
+        ],
+        "correct_answer": 4 
+    },
+    {
+        "category": "Angular",
+        "question_id": 4,
+        "question": "ngOnInit, ngDoCheck, ngAfterViewInit, ngOnDestroy are some of?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "RxJS methods"
+            },
+            {
+                "id": 2,
+                "value": "Lifecycle hooks"
+            },
+            {
+                "id": 3,
+                "value": "DB connection methods"
+            },
+            {
+                "id": 4,
+                "value": "NgRx methods"
+            }
+        ],
+        "correct_answer": 2 
+    },
+    {
+        "category": "Angular",
+        "question_id": 5,
+        "question": "What are modules?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Modules are larger units that group together one or more related components."
+            },
+            {
+                "id": 2,
+                "value": "Modules are singleton objects that provide specific functionality throughout an Angular application."
+            },
+            {
+                "id": 3,
+                "value": "Modules are HTML structure that is used for angular page representation."
+            },
+            {
+                "id": 4,
+                "value": "Modules are parts of code for handling forms."
+            }
+        ],
+        "correct_answer": 1
+    }
+]}

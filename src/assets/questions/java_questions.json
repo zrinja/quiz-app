@@ -1,0 +1,124 @@
+{   
+    "name": "Java",
+    "questions": [
+    {
+        "category": "Java",
+        "question_id": 1,
+        "question": "What is JVM?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Java Visualation Module"
+            },
+            {
+                "id": 2,
+                "value": "Java Virtual Machine"
+            },
+            {
+                "id": 3,
+                "value": "Java Visualation Machine"
+            },
+            {
+                "id": 4,
+                "value": "Java Virtual Module"
+            }
+        ],
+        "correct_answer": 2 
+    },
+    {
+        "category": "Java",
+        "question_id": 2,
+        "question": "What is JRE?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Other"
+            },
+            {
+                "id": 2,
+                "value": "Java Real-time Embeding"
+            },
+            {
+                "id": 3,
+                "value": "Java Runtime Error"
+            },
+            {
+                "id": 4,
+                "value": "Java Runtime Environment"
+            }
+        ],
+        "correct_answer": 4 
+    },
+    {
+        "category": "Java",
+        "question_id": 3,
+        "question": "If I don't provide any arguments on the command line, then what will the value stored in the String array passed into the main() method?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "0"
+            },
+            {
+                "id": 2,
+                "value": "null"
+            },
+            {
+                "id": 3,
+                "value": "Empty"
+            },
+            {
+                "id": 4,
+                "value": "Other"
+            }
+        ],
+        "correct_answer": 3 
+    },
+    {
+        "category": "Java",
+        "question_id": 4,
+        "question": "What are the various access specifiers in Java?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "Public, Protected, Default, Private"
+            },
+            {
+                "id": 2,
+                "value": "Public, Private, Closed, Open"
+            },
+            {
+                "id": 3,
+                "value": "Public, None, Secured, Default"
+            },
+            {
+                "id": 4,
+                "value": "All answers are correct"
+            }
+        ],
+        "correct_answer": 1 
+    },
+    {
+        "category": "Java",
+        "question_id": 5,
+        "question": "Which statment is true for Java Constructor?",
+        "answers": [ 
+            {
+                "id": 1,
+                "value": "The constructor is invoked explicitly."
+            },
+            {
+                "id": 2,
+                "value": "The Java compiler provides a default constructor if you don't have any constructor in a class."
+            },
+            {
+                "id": 3,
+                "value": "Constuctor name may or may not be same as class name."
+            },
+            {
+                "id": 4,
+                "value": "Constructor is used to expose the behavior of an object."
+            }
+        ],
+        "correct_answer": 2
+    }
+]}

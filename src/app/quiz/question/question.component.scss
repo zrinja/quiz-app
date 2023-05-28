@@ -1,0 +1,27 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.question-body {
+    padding: 0 10px 10px 10px;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 4px 2px 2px silver;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    &.active{
+        background-color: aqua;
+    }
+}
